@@ -18,6 +18,7 @@ namespace Testowy_Projekt
             int i = 0;
             foreach (DataRow dr in op.Rows)
             {
+                Console.WriteLine();
                 listaObiektow.Add(new ObiektBazy());
                 //listaObiektow[i].Nr = (long)dr["Nr"];
                 //listaObiektow[i].ID = (short)dr["Identyfikator osoby"];
